@@ -70,23 +70,23 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid rgba(6, 247, 215, 0.781);
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.4) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color:  rgba(6, 247, 215, 0.781);
+  color: rgb(0, 0, 0);
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
-.location {
-  background-color: #222;
-  color: yellow;
+.subtitle {
+  background-color: rgba(0, 0, 0, 0.63);
+  color: rgb(255, 255, 255);
 }
 section {
   margin: 30px;
@@ -135,7 +135,7 @@ ul {
 .skills li, .books li, .favorites li{
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: black;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -147,7 +147,7 @@ ul {
 }
 
 .skills li:nth-child(odd), .books li:nth-child(odd), .favorites li:nth-child(odd){
-  background: #0399ff;
+  background: rgba(6, 247, 215, 0.781);
 }
 
 footer {
