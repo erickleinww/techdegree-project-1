@@ -102,12 +102,12 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
-ul.skills {
+ul.skills, ul.favorites, ul.books {
   padding: 0;
   text-align: center;
 }
 
-.skills li {
+.skills li, .favorites li, .books li {
   border-radius: 6px;
   display: inline-block;
   background: #ff9904;
@@ -116,24 +116,7 @@ ul.skills {
   margin: 2px;
 }
 
-.skills li:nth-child(odd) {
-  background: #0399ff;
-}
-ul.books {
-  padding: 0;
-  text-align: center;
-}
-
-.books li {
-  border-radius: 6px;
-  display: inline-block;
-  background: #ff9904;
-  color: white;
-  padding: 5px 10px;
-  margin: 2px;
-}
-
-.books li:nth-child(odd) {
+.skills li:nth-child(odd), .favorites li:nth-child(odd), .books li:nth-child(odd) {
   background: #0399ff;
 }
 
